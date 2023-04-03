@@ -1,0 +1,219 @@
+/* ************************* selector ID **********************************  */
+#title {
+  background-color: #ff4c68;
+}
+
+#iphone {
+  transform: rotate(10deg);
+  transition: 1s;
+  width: 60%;
+  /* width: fit-content; */
+  /* margin: 10px auto; */
+}
+
+#iphone:hover {
+  transform: rotate(15deg);
+  transform: translateX(70px);
+
+  transition: 1s;
+  /* margin: 10px auto; */
+}
+
+#features {
+  text-align: center;
+  padding: 100px 40px 100px 40px;
+  background: linear-gradient(0deg,
+      /*hue is one of the color model like rgb*/
+      hsla(286, 100%, 84%, 0.264),
+      /*hue : decide color and it does not have any unit , saturation: describe the amout of gray color in hue described by % , lightness : describe the amount of white color in hue and described by % , alpha value desctibe the transparency effect  */
+      hsl(0, 0%, 100%) 100%);
+}
+
+
+#testimonials {
+  text-align: center;
+
+  background-color: #ff4c68;
+  padding: 115px 0 150px 0;
+  margin: 10px 0 0 0 0;
+  font-family: "Montserrat";
+  color: white;
+
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 8px;
+
+}
+
+#pricing {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 120px 20px 180px 20px;
+}
+
+#footer {
+  margin: 77px;
+  text-align: center;
+}
+
+/* ************************* selector CLASS **********************************  */
+.headline {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  color: black;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+.container-fluid {
+  background: linear-gradient(45deg,
+      /*hue is one of the color model like rgb*/
+      hsla(20, 100%, 50%, 0.5),
+      /*hue : decide color and it does not have any unit , saturation: describe the amout of gray color in hue described by % , lightness : describe the amount of white color in hue and described by % , alpha value desctibe the transparency effect  */
+      hsla(263, 88%, 45%, 0.7) 100%);
+}
+
+
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "ubuntu";
+}
+
+.navbar {
+  padding: auto 0;
+}
+
+.nav-items {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: large;
+  font-weight: normal;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  /* margin-bottom: 40px; */
+}
+
+.features-icon {
+  color: #ff6464;
+
+}
+
+.features-icon:hover {
+  color: #f6004a;
+
+}
+
+.featues-heading {
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  padding: 10px 0 0 10px;
+}
+
+.features-text {
+  color: #6c6969;
+  font-size: large;
+  font-weight: lighter;
+}
+
+.features-box {
+  margin: 40px 0;
+}
+
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 100px;
+  margin: 25px;
+  border: 3px solid white;
+
+}
+
+
+.press-logo {
+  width: 200px;
+  margin: 10px 30px 50px 30px;
+}
+
+.pricing-box {
+  margin: 0;
+}
+
+.pricing-text {
+  color: grey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+
+.card-deck {
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.pricing-tag {
+  font-size: 3rem;
+}
+
+@media (max-width : 991px) {
+  .row {
+    text-align: center;
+  }
+
+
+  #iphone {
+    transform: rotate(0);
+    transition: 1s;
+    width: 100%;
+    position: static;
+    /* transform: translateX(20px); */
+
+  }
+
+  #iphone:hover {
+    transition: 1s;
+    width: 100%;
+    position: static;
+    transform: translateX(0);
+  }
+}
+
+
+.cta-text {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  color: white;
+
+}
+
+.cta-button {
+  font-size: large;
+  margin: 20px;
+}
+
+.footer-text {
+  color: gray;
+}
+
+/* ************************* selector **********************************  */
+body {
+  margin: auto;
+}
